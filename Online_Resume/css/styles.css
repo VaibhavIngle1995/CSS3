@@ -1,0 +1,203 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+/* --------------- Sidebar --------------- */
+.sidebar{
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    float: left;
+    height: 100%;
+    background-color: #00aeef;
+    text-align: center;
+    position: fixed;
+    box-shadow: 0 0 15px black;
+}
+.sidebar img{
+    width: 150px;
+    height: 150px;
+    border: 10px solid darkgray;
+    box-shadow: 0 0 15px black;
+    border-radius: 50%;
+    margin-top: 100px;
+
+}
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 25px;
+    color: #baf5d2;
+}
+.sidebar a:hover{
+    color: white;
+}
+/* --------------- About Section --------------- */
+#about-section{
+    margin-left: 300px;
+    padding-left: 30px;
+
+}
+#about-section h1{
+    margin: 120px 0 0 0 ;
+    padding: 20px;
+    font-family:'Fjalla One', sans-serif;
+}
+#about-section h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    margin-top: 0px;
+}
+#fname{
+    color:#382828;;
+    font-size: 85px;
+    text-shadow: 0 0 10px black;
+}
+#lname{
+    font-size: 85px;
+    text-shadow: 0 0 10px black;
+    color: #00aeef;
+}
+#about-section p{
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 110px;
+}
+/* --------------- Experience Section --------------- */
+#exp-section{
+    margin-left: 300px;
+    padding-left: 30px;
+}
+.main-heading{
+    font-size: 50px;
+    text-shadow: 0 0 10px #00aeef;
+}
+.exp-article h2{
+    font-family: 'Courgette', cursive;
+    text-shadow: 0 0 10px #00aeef;
+    font-size: 25px;
+
+}
+.exp-article{
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px #00aeef;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: inline-block;
+    margin: 20px;
+    transition: all 0.5s;
+
+}
+.exp-article:hover{
+    transform: perspective(400px)rotateY(-20deg);
+}
+.exp-article p{
+    color: grey;
+}
+.exp-article-button{
+    background-color: #00aeef;
+    border: 5px solid white;
+    box-shadow: 0 0 15px #00aeef;
+    color: white;
+    font-size: 18px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px 20px;
+}
+
+/* --------------- Education Section --------------- */
+#edu-section{
+    margin-left: 300px;
+    padding-left: 30px;
+}
+.edu-article{
+    box-shadow: 0 0 15px #00aeef;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.edu-article:hover{
+    transform: perspective(400px)rotateX(20deg);
+}
+.edu-article h2{
+    color: #00aeef;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+.edu-article p{
+    font-size: 18px;
+    color: gray;
+}
+
+/* --------------- Skills Section --------------- */
+.skill-section{
+    margin-left: 300px;
+    padding-left: 30px;
+}
+.skill-article h2{
+    color: #00aeef;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+.skill-article{
+    box-shadow: 0 0 15px #00aeef;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.skill-article:hover{
+    transform: perspective(400px)rotateX(-20deg);
+}
+.skill-article p{
+    font-size: 18px;
+    color: gray;
+}
+.skill-article i{
+    padding-left: 10px;
+}
+/* --------------- Certification Section --------------- */
+#cer-section{
+    margin-left: 300px;
+    padding-left: 30px;
+
+}
+.cer-article{
+    box-shadow: 0 0 15px #00aeef;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    margin: 10px;
+    transition: all 0.5s;
+}
+.cer-article:hover{
+    background-color: #00aeef;
+    transform: perspective(400px) translatey(-20px);
+    color: white;
+    color: white;
+}
+#cer-section p{
+    font-size: 18px;
+}
+#cer_p{
+    color: grey;
+    margin-bottom: 50px;
+}
+.cer-article img{
+    width: 100px;
+    height: 100px;
+    margin-top: -65px;
+
+}

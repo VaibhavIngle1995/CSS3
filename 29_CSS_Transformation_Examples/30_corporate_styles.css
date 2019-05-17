@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border: 50px;
+}
+section{
+        padding: 30px;
+        margin: 10px;
+        text-align: center;
+}
+article{
+    width: 250px;
+    height: 350px;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px blue;
+    transition: all 0.5s;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    border-radius:50%;
+    box-shadow: 0 0 10px blue;
+}
+section article i{
+    padding: 20px;
+    width: 35px;
+    font-size:25px;
+}
+
+.trans:hover{
+    transform: perspective(400px) rotateX(10deg);
+    background-color: blue;
+    color: white;
+}
+footer{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+footer input{
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    padding: 10px 70px;
+    box-shadow: 0 0 5px white;
+    float: right;
+    margin-top: -100px;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Backgrounds</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+        }
+        #teal{
+            background-color: teal;
+        }
+        #bgImage{
+            background:lightsalmon url("img/image5.jpeg")no-repeat scroll top right;
+            padding: 20px;
+            color: black;
+            text-shadow: 0 0 10px white;
+            width: 500px;
+        }
+        #bgAttachment{
+            padding: 100px;
+            box-shadow:  0 0 15px black;
+            background:white url("img/image1.jpeg")no-repeat fixed bottom;
+        }
+        #bgPosition{
+            background: lightsalmon url("img/nature.jpg")no-repeat top right;
+            height: 300px;
+            width: 500px;
+            box-shadow: 0 0 15px black;
+        }
+        #bgRepeat{
+            background: lightsalmon url("img/nature.jpg")repeat-x;
+            height: 300px;
+            width: 500px;
+            box-shadow: 0 0 15px black;
+        }
+        #Linear1{
+            background: linear-gradient(black,white,blue);
+            padding: 10px;
+            height: 250px;
+            width: 500px;
+            box-shadow: 0 0 15px black;
+            font-size: 18px;
+        }
+        #Linear2{
+            background: linear-gradient(to right,black,white,blue);
+            padding: 10px;
+            height: 250px;
+            width: 500px;
+            box-shadow: 0 0 15px black;
+            font-size: 18px;
+        }
+        #Linear3{
+            background: linear-gradient(to right bottom,black,white,blue);
+            padding: 10px;
+            height: 250px;
+            width: 500px;
+            box-shadow: 0 0 15px black;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- BACKGROUND COLOR -->
+    <h2 id="teal">I am Teal color Background</h2>
+
+    <!-- BACKGROUND IMAGE -->
+    <h2>BACKGROUND IMAGE</h2>
+    <div id="bgImage">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi architecto atque blanditiis, cupiditate delectus distinctio est et eum exercitationem ipsam labore laboriosam magni minus modi molestiae mollitia necessitatibus neque nihil optio perferendis quam quos sapiente sunt suscipit ullam vero?</p>
+    </div>
+
+    <!-- BACKGROUND ATTACHMENT -->
+    <h2>BACKGROUND ATTACHMENT</h2>
+    <div id="bgAttachment"></div>
+
+    <!-- BACKGROUND POSITION -->
+    <h2>BACKGROUND POSITION</h2>
+    <div id="bgPosition"></div>
+
+    <!-- BACKGROUND REPEAT -->
+    <h2>BACKGROUND REPEAT</h2>
+    <div id="bgRepeat"></div>
+    <!-- Linear Gradient -->
+    <h2>BACKGROUND Linear</h2>
+    <div id="Linear1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto, asperiores aut corporis cupiditate doloremque doloribus dolorum ea earum eius eum id impedit, inventore ipsa ipsum iste itaque labore laborum laudantium maiores modi molestiae necessitatibus numquam obcaecati quos rem similique sint sunt temporibus totam ullam unde veritatis vero voluptas voluptate.</p>
+    </div>
+
+    <!-- Linear Gradient -->
+    <h2>BACKGROUND Linear</h2>
+    <div id="Linear2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto, asperiores aut corporis cupiditate doloremque doloribus dolorum ea earum eius eum id impedit, inventore ipsa ipsum iste itaque labore laborum laudantium maiores modi molestiae necessitatibus numquam obcaecati quos rem similique sint sunt temporibus totam ullam unde veritatis vero voluptas voluptate.</p>
+    </div>
+    <h2>BACKGROUND Linear</h2>
+    <div id="Linear3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto, asperiores aut corporis cupiditate doloremque doloribus dolorum ea earum eius eum id impedit, inventore ipsa ipsum iste itaque labore laborum laudantium maiores modi molestiae necessitatibus numquam obcaecati quos rem similique sint sunt temporibus totam ullam unde veritatis vero voluptas voluptate.</p>
+    </div>
+
+</body>
+</html>
